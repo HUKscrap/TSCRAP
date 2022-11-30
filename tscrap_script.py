@@ -136,7 +136,7 @@ def web_scrap_tankstelle():
     list.append(f"{results}")
     
     file_name = f"/{timestamp()} data_tankstelle"
-    file_directory_begin = r"/tscrap"
+    file_directory_begin = r"/tscrap/data"
     file_directory = file_directory_begin + file_name
     text_file = open(file_directory,"x")
         #die einzelnen listen einträge einzeln pro zeile in die .txt datei einfügen (vorher in str umwandeln)

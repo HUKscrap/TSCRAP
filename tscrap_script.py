@@ -135,7 +135,7 @@ def web_scrap_tankstelle():
         #.txt file im write modus öffnen
     list.append(f"{results}")
     
-    file_name = f"\{timestamp()} data_tankstelle"
+    file_name = f"/{timestamp()} data_tankstelle"
     file_directory_begin = r"/tscrap"
     file_directory = file_directory_begin + file_name
     text_file = open(file_directory,"x")
